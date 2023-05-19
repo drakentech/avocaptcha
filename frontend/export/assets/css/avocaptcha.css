@@ -1,0 +1,55 @@
+:root {
+  --blue: #3763f4;
+  --indigo: #24285b;
+  --purple: #6f42c1;
+  --pink: #e33cd1;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffd200;
+  --green: #00b779;
+  --teal: #00b4c9;
+  --cyan: #00b4c9;
+  --white: #fff;
+  --gray: #4e5d78;
+  --gray-dark: #343a40;
+  --primary: #3D863A;
+  --secondary: #E5FF7F;
+  --success: #00b779;
+  --info: #00b4c9;
+  --warning: #86CD60;
+  --danger: #dc3545;
+  --light: #f5f6f8;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary);
+  border-color: var(--gray-dark);
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: var(--warning);
+  z-index: -1;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #161836;
+}
+
